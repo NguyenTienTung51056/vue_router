@@ -1,3 +1,4 @@
+//Local Registration
 <template>
   <DefaultLayout />
 </template> 

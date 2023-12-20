@@ -17,8 +17,6 @@
 
 <script setup>
 import classNames from 'classnames/bind'
-import Sidebar from '../components/sideBar/Sidebar.vue'
-import Header from '../components/header/Header.vue'
 import styles from './DefaultLayout.module.scss'
 const cx = classNames.bind(styles);
 </script>
