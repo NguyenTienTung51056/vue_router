@@ -1,12 +1,14 @@
 // src/main.js
 import { createApp } from 'vue';
 import App from './App.vue';
-import './assets/main.scss'
+import './assets/main.scss';
 import router from './router/routers';
+import components from './components';
 
 const app = createApp(App);
 
-// Sử dụng router
+components.register(app);
+
 app.use(router);
 
 app.mount('#app');
